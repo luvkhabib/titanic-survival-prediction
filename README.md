@@ -1,6 +1,6 @@
 # Titanic Survival Prediction: A Machine Learning Approach
-**Python 3.8**  
-**License: MIT**
+[![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/)
+[![License](https://img.shields.io/badge/license-MIT-green)](https://opensource.org/licenses/MIT)
 
 A machine learning project predicting passenger survival on the Titanic disaster using advanced techniques.
 
