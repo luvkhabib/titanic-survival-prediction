@@ -1,8 +1,6 @@
-# titanic-survival-prediction
-# Titanic Survival Prediction Project
-
-[![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/)
-[![License](https://img.shields.io/badge/license-MIT-green)](https://opensource.org/licenses/MIT)
+# Titanic Survival Prediction: A Machine Learning Approach
+**Python 3.8**  
+**License: MIT**
 
 A machine learning project predicting passenger survival on the Titanic disaster using advanced techniques.
 
@@ -17,34 +15,35 @@ A machine learning project predicting passenger survival on the Titanic disaster
 
 ## Project Overview
 This project demonstrates:
-- Complete ML pipeline from data cleaning to deployment-ready model
-- Advanced hyperparameter tuning with Optuna
-- Feature importance analysis
-- Model interpretability techniques
-
-<img src="https://placehold.co/600x400?text=Confusion+Matrix+Visualization" alt="Confusion matrix showing model performance" width="400"/>
+- A complete ML pipeline from data cleaning to a deployment-ready model.
+- Advanced hyperparameter tuning with Optuna.
+- Feature importance analysis and model interpretability techniques.
+- Visualization of model performance through confusion matrices.
 
 ## Features
-- **Data Preprocessing**:
-  - Missing value imputation
-  - Feature encoding (one-hot, label)
-  - Feature scaling
-- **Modeling**:
-  - Random Forest with hyperparameter tuning
-  - XGBoost comparison
-  - Neural Network experiment
-- **Evaluation**:
-  - Accuracy, Precision, Recall metrics
-  - SHAP value interpretation
-  - Learning curves
+### Data Preprocessing
+- Missing value imputation
+- Feature encoding (one-hot, label)
+- Feature scaling
+
+### Modeling
+- Random Forest with hyperparameter tuning
+- Comparison with XGBoost
+- Neural Network experiment
+
+### Evaluation
+- Metrics: Accuracy, Precision, Recall
+- SHAP value interpretation for model insights
+- Learning curves to visualize model performance
 
 ## Methodology
-1. **Data Exploration**: Initial analysis of features and distributions
+1. **Data Exploration**: Initial analysis of features and distributions.
 2. **Feature Engineering**:
    - Title extraction from names
    - Family size calculation
    - Cabin letter extraction
 3. **Model Development**:
+   - Hyperparameter tuning using Optuna:
    ```python
    def objective(trial):
        params = {
