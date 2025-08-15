@@ -75,3 +75,38 @@ To install the necessary dependencies, run the following command in your termina
 
 ```bash
 pip install -r requirements.txt
+
+### Usage
+To run the project, execute the following command:
+
+bash
+
+Run
+Copy code
+python main.py
+[Include any additional usage instructions or examples here, such as how to specify input files or parameters.]
+
+Contributing
+Contributions are welcome! Please follow these steps to contribute to the project:
+
+Fork the repository: Click on the "Fork" button at the top right of the repository page.
+Create a new branch:
+bash
+
+Run
+Copy code
+git checkout -b feature-branch
+Make your changes: Implement your feature or fix.
+Commit your changes:
+bash
+
+Run
+Copy code
+git commit -m 'Add new feature'
+Push to the branch:
+bash
+
+Run
+Copy code
+git push origin feature-branch
+Create a pull request: Go to the original repository and click on "New Pull Request".
